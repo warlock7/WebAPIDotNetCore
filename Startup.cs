@@ -32,7 +32,7 @@ namespace WebAPIDotNetCore
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World! - API develop changed master server test");
+                    await context.Response.WriteAsync("Hello World! - API develop changed master server test11");
                 });
             });
         }
